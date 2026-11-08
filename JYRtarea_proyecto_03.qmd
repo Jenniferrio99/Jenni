@@ -1,0 +1,293 @@
+---
+title: "Transmisión intergeneracional del trauma: mecanismos psicológicos, familiares y sociales"
+subtitle: "Tarea de Proyecto №3 — Revisión de la literatura y propuesta metodológica"
+author:
+  - "Jennifer Ríos"
+date: noviembre
+date-format: long
+lang: es
+format:
+  docx:
+    reference-doc: Formato_TP3.docx
+  html:
+    theme: united
+    css: uprrp-theme.css
+    embed-resources: true
+    toc: true
+    toc-title: "Índice"
+bibliography: Referencias.bib
+csl: apa-clacso.csl
+---
+## Instrucciones generales
+
+**SOCI 4186 · Revisión de la literatura y propuesta metodológica. Entrega: martes 20 de octubre de 2026, a las 23:59, por Moodle.**
+
+1. Descargue el ZIP y descomprima la carpeta completa donde vaya a trabajar. Puede guardarla dentro de un proyecto de RStudio o usar el proyecto `TP3.Rproj` incluido. Conserve juntos los archivos del paquete.
+2. **Empiece por abrir y leer `LÉAME.md` en RStudio.** Allí están los pasos de uso. Puede consultar `LÉAME.html` o renderizar el Markdown a HTML si prefiere esa presentación.
+3. Abra `tarea_proyecto_03.qmd`. Sustituya el título, su nombre y número de estudiante en las primeras líneas. Si trabaja en grupo, identifique el grupo y sus integrantes.
+4. Redacte las secciones indicadas. La revisión se organiza por temas y tiene una extensión sugerida de 800–1,500 palabras. Use las fuentes de su TP2; el ejemplo docente incluido muestra cómo funcionan las citas.
+5. Consulte `Anexo_metodológico_TP3.pdf` y `RUBRICA_TP3.pdf`. El anexo orienta la propuesta según el método seleccionado y se usa como referencia.
+6. Genere el Word desde el menú **Render**, escogiendo Word (`docx`). Si prefiere entregar un PDF, abra el Word y guárdelo o expórtelo como PDF. Revise el documento final antes de entregar.
+7. Entregue **tres archivos** en Moodle: el `.qmd` editado, `Referencias.bib` y **un `.pdf` o un `.docx`**. En los trabajos grupales, un integrante realiza una única entrega para todo el equipo; el documento debe identificar a todos sus integrantes. Deposite los archivos publicables en el portafolio GitHub y coloque el enlace en el comentario de entrega. Conserve los datos identificables fuera del repositorio público.
+8. Incluya la declaración de uso de MEL. Antes de entregar, elimine estas instrucciones, el ejemplo docente y todos los textos entre corchetes. Su documento final contendrá su revisión, propuesta metodológica, declaración, referencias y, cuando corresponda, el borrador del instrumento.
+
+La recolección con personas comienza después del visto bueno del profesor y de la revisión institucional aplicable.
+
+{{< pagebreak >}}
+
+## Revisión de la literatura
+
+### Conceptualización de la transmisión intergeneracional del trauma
+
+La transmisión intergeneracional del trauma constituye un campo de investigación que examina cómo las experiencias adversas de una generación pueden relacionarse con el bienestar psicológico, las relaciones familiares y las condiciones de vida de generaciones posteriores. Este fenómeno no implica que los descendientes necesariamente desarrollen los mismos síntomas que sus progenitores. Más bien, plantea la posibilidad de que determinadas experiencias traumáticas influyan en procesos emocionales, conductuales y sociales que se desarrollan dentro de las familias y de sus respectivos contextos históricos.
+
+La literatura examinada presenta distintas aproximaciones a este fenómeno. Mientras algunas investigaciones estudian directamente los resultados psicológicos y físicos de los descendientes, otras analizan las relaciones de crianza, las experiencias adversas durante la infancia y los mecanismos sociales o biológicos que podrían contribuir a la continuidad de sus efectos [@lee2019, @moog2023, @torresperez2025, @kaufman2023, @mangrum2025].
+
+Una distinción fundamental consiste en reconocer que la transmisión intergeneracional no equivale necesariamente a una herencia biológica del trauma. Las consecuencias observadas pueden relacionarse con procesos familiares, condiciones socioeconómicas, experiencias compartidas o exposiciones directas a nuevas adversidades. Por ello, resulta necesario examinar tanto los mecanismos propuestos como las limitaciones de la evidencia utilizada para explicarlos.
+
+### Experiencias traumáticas y salud mental de los descendientes
+
+Uno de los principales temas de la literatura es la relación entre experiencias traumáticas de los progenitores y dificultades psicológicas identificadas en sus descendientes.
+
+Lee et al. (2019) examinaron la salud mental de seis descendientes biológicos de sobrevivientes del sistema de esclavitud sexual militar japonesa durante la Segunda Guerra Mundial. Mediante evaluaciones psiquiátricas, identificaron diferentes manifestaciones de sufrimiento psicológico, entre ellas dificultades emocionales, problemas relacionados con la autoestima y síntomas psiquiátricos.
+
+La importancia de esta investigación reside en que sitúa el trauma dentro de un contexto histórico de violencia sexual, estigmatización y sufrimiento familiar. Las experiencias de las sobrevivientes no pueden comprenderse exclusivamente como acontecimientos individuales, pues estuvieron vinculadas a relaciones de poder, violencia institucional y condiciones sociales que pudieron influir en sus familias.
+
+Sin embargo, la investigación presenta limitaciones importantes. Su muestra de seis participantes es demasiado pequeña para generalizar los resultados a todos los descendientes de sobrevivientes. Además, la presencia de síntomas psiquiátricos no demuestra por sí misma que estos hayan sido causados por las experiencias traumáticas de sus madres [@lee2019].
+
+Desde una perspectiva distinta, Moog et al. (2023) investigaron las asociaciones entre experiencias maternas de maltrato durante la infancia y resultados de salud de sus hijos. Su estudio incluyó 4,337 díadas de madres e hijos provenientes de 21 cohortes estadounidenses.
+
+Los resultados mostraron asociaciones entre antecedentes maternos de maltrato y diferentes dificultades de salud física y psicológica en los descendientes. Esta investigación amplía el análisis porque incorpora una muestra considerablemente mayor y permite examinar patrones estadísticos que no pueden identificarse con la misma precisión en estudios pequeños.
+
+No obstante, el carácter observacional de la investigación exige cautela. Aunque las asociaciones encontradas son relevantes, no permiten establecer que el maltrato experimentado por las madres sea la causa directa de cada resultado observado en sus hijos [@moog2023].
+
+En conjunto, ambas investigaciones muestran que el trauma intergeneracional puede estudiarse desde perspectivas clínicas y epidemiológicas. También evidencian que el tamaño de la muestra, la selección de participantes y el diseño metodológico influyen en las conclusiones que pueden formularse.
+
+### Dinámicas familiares, negligencia y vínculos afectivos
+
+Otro mecanismo ampliamente discutido es la posible influencia de las experiencias traumáticas sobre las relaciones familiares y los estilos de crianza.
+
+Torres-Pérez et al. (2025) examinaron las experiencias infantiles de negligencia y su relación con el vínculo maternofilial durante el periodo posparto. La investigación incluyó a 38 madres y analizó cómo los antecedentes de negligencia emocional y física podían relacionarse con las percepciones de cuidado parental y las dificultades de vinculación con sus bebés.
+
+Este estudio resulta especialmente pertinente para nuestra investigación porque incorpora un contexto relacionado con Puerto Rico y permite examinar procesos familiares cercanos a la experiencia cotidiana. Sus hallazgos sugieren que las experiencias adversas de una madre durante su infancia pueden asociarse con dificultades posteriores en las relaciones afectivas.
+
+Sin embargo, es importante distinguir entre las dificultades de vinculación identificadas en las madres y los posibles resultados psicológicos futuros de sus hijos. El estudio no demuestra que los bebés hayan desarrollado trastornos mentales ni permite establecer una transmisión inevitable del trauma [@torresperez2025].
+
+Por su parte, Mangrum (2025) examinó las relaciones entre experiencias adversas durante la infancia, dinámicas familiares y dificultades emocionales y conductuales. Su investigación permite ampliar la discusión sobre el papel que desempeñan las relaciones familiares en el bienestar psicológico.
+
+Las dinámicas familiares pueden incluir patrones de comunicación, disponibilidad de apoyo emocional, relaciones de confianza y formas de responder a situaciones difíciles. Estos elementos constituyen posibles vías mediante las cuales las experiencias de una generación pueden influir en el entorno de desarrollo de la siguiente.
+
+Sin embargo, las asociaciones identificadas entre experiencias adversas y dificultades emocionales no deben interpretarse automáticamente como evidencia de un mecanismo causal específico [@mangrum2025].
+
+Ambas investigaciones permiten reconocer que las relaciones familiares pueden constituir espacios donde se manifiestan consecuencias de experiencias traumáticas anteriores, pero también pueden ofrecer recursos de apoyo y protección.
+
+### Factores sociales, históricos y posibles mecanismos epigenéticos
+
+La transmisión intergeneracional del trauma no ocurre de manera aislada de las condiciones sociales e históricas.
+
+Kaufman et al. (2023) examinan las relaciones entre experiencias traumáticas, racismo sistémico y posibles mecanismos de transmisión entre generaciones. Su discusión destaca la importancia de considerar las condiciones sociales que pueden prolongar la exposición a situaciones adversas.
+
+La discriminación, la desigualdad económica y las dificultades de acceso a recursos pueden contribuir a que distintas generaciones enfrenten condiciones de vulnerabilidad semejantes. En estos casos, resulta necesario distinguir entre los efectos de experiencias traumáticas anteriores y las consecuencias de nuevas exposiciones a situaciones adversas.
+
+Los autores también discuten posibles mecanismos epigenéticos. Estos mecanismos se relacionan con procesos que pueden modificar la regulación de la actividad genética sin alterar la secuencia del ADN.
+
+Aunque algunas investigaciones experimentales ofrecen evidencia sobre respuestas biológicas asociadas con experiencias adversas, todavía existen limitaciones importantes para demostrar una transmisión epigenética hereditaria del trauma en seres humanos [@kaufman2023].
+
+Esta distinción resulta fundamental para evitar explicaciones deterministas. No sería correcto afirmar que una experiencia traumática necesariamente se transmite biológicamente a los descendientes cuando la evidencia disponible no permite establecer esa conclusión.
+
+La investigación de Lee et al. (2019) también permite comprender la relevancia del contexto histórico. Las experiencias de las sobrevivientes de esclavitud sexual militar japonesa estuvieron vinculadas a formas extremas de violencia y estigmatización. Por ello, sus posibles consecuencias familiares deben interpretarse considerando las circunstancias históricas y sociales en las que ocurrieron.
+
+De manera semejante, los estudios sobre maltrato infantil y negligencia familiar requieren considerar factores como las condiciones económicas, las redes de apoyo y el acceso a servicios de salud.
+
+### Patrones, debates y brechas de investigación
+
+Las cinco investigaciones examinadas permiten identificar tres patrones principales.
+
+En primer lugar, existe evidencia de asociaciones entre experiencias adversas de una generación y determinadas dificultades psicológicas, físicas o familiares observadas posteriormente [@lee2019; @moog2023; @torresperez2025].
+
+En segundo lugar, las relaciones familiares aparecen como un componente importante para comprender los posibles mecanismos de transmisión. Las experiencias de crianza, el vínculo afectivo y las condiciones del entorno familiar pueden influir en el desarrollo emocional, aunque su papel causal específico requiere mayor investigación [@torresperez2025; @mangrum2025].
+
+En tercer lugar, los factores sociales y las posibles respuestas biológicas amplían las explicaciones disponibles, pero no constituyen mecanismos equivalentes ni cuentan necesariamente con el mismo nivel de evidencia [@kaufman2023].
+
+Una de las principales diferencias entre las investigaciones reside en sus metodologías. Lee et al. (2019) presentan una evaluación clínica de una muestra pequeña, mientras que Moog et al. (2023) utilizan datos de una población mucho mayor. Torres-Pérez et al. (2025) se concentran en las experiencias maternas y el vínculo posparto, mientras que Kaufman et al. (2023) desarrollan una revisión de mecanismos sociales y biológicos.
+
+Estas diferencias dificultan establecer conclusiones uniformes sobre el fenómeno.
+
+La principal brecha identificada es la dificultad para distinguir entre mecanismos de transmisión, asociaciones estadísticas y condiciones sociales compartidas. También persisten interrogantes sobre la influencia de los factores protectores y sobre las circunstancias en las que las experiencias traumáticas no producen dificultades observables en generaciones posteriores.
+
+Por estas razones, nuestra investigación propone examinar las cinco fuentes mediante un análisis documental cualitativo que permita identificar mecanismos recurrentes, diferencias metodológicas y explicaciones alternativas.
+
+La revisión conduce a nuestra pregunta de investigación: ¿a través de qué mecanismos se transmite el trauma de una generación a la siguiente y qué efectos produce en la salud mental de los descendientes?
+
+{{< pagebreak >}}
+
+## Propuesta metodológica
+
+### Pregunta de investigación
+
+**¿A través de qué mecanismos se transmite el trauma de una generación a la siguiente y qué efectos produce en el bienestar de los descendientes?**
+
+Esta pregunta surge de la revisión de literatura, que identifica asociaciones entre experiencias traumáticas de los progenitores y determinados resultados psicológicos, familiares y físicos en generaciones posteriores.
+
+La investigación buscará comprender los mecanismos propuestos para explicar estas asociaciones, sin asumir que el trauma necesariamente produce consecuencias negativas en todos los descendientes.
+
+### Método de investigación
+
+Utilizare un enfoque cualitativo basado en el estudio de casos comparado y el análisis documental de investigaciones académicas.
+
+Se seleccionarán tres casos principales:
+
+**Caso 1.** Descendientes de sobrevivientes de esclavitud sexual militar japonesa, mediante Lee et al. (2019).
+
+**Caso 2.** Descendientes de madres que experiencio maltrato infantil, mediante Moog et al. (2023).
+
+**Caso 3.** Experiencias de negligencia infantil y vínculos maternofiliales en Puerto Rico, mediante Torres-Pérez et al. (2026).
+
+Las investigaciones de Kaufman et al. (2023) y Mangrum (2025) complementarán la interpretación de los mecanismos sociales, familiares y biológicos propuestos.
+
+La comparación se realizará entre los hallazgos de las investigaciones, no entre participantes individuales de los diferentes estudios.
+
+Este método resulta apropiado porque permite examinar experiencias traumáticas diversas e identificar patrones interpretativos sin necesidad de realizar nuevas evaluaciones clínicas.
+
+### Unidad de análisis
+
+La unidad principal de análisis será cada una de las cinco investigaciones académicas seleccionadas.
+
+La unidad de registro consistirá en fragmentos de los documentos que describan experiencias traumáticas, mecanismos de transmisión, resultados de salud mental, factores sociales y limitaciones metodológicas.
+
+También se registrarán atributos de cada investigación, incluyendo población, tamaño de la muestra, contexto y diseño metodológico.
+
+### Población y muestreo
+
+El universo documental de interés está constituido por investigaciones académicas sobre transmisión intergeneracional del trauma.
+
+Se utilizará un muestreo intencional no probabilístico compuesto por cinco fuentes seleccionadas por su relación directa con la pregunta de investigación.
+
+Los criterios de inclusión serán:
+
+1. Examinar experiencias traumáticas y posibles consecuencias intergeneracionales.
+2. Presentar información sobre mecanismos psicológicos, familiares, sociales o biológicos.
+3. Identificar resultados empíricos o explicaciones teóricas relevantes.
+4. Permitir reconocer la metodología y las limitaciones de la investigación.
+
+Se excluirán documentos que no aborden el fenómeno estudiado, que carezcan de información suficiente para su interpretación o que no permitan identificar claramente sus resultados o argumentos.
+
+La selección no pretende representar estadísticamente toda la literatura existente, sino examinar de manera detallada cinco fuentes pertinentes.
+
+### Plan de recolección de datos
+
+La información se obtendrá de los cinco documentos académicos seleccionados.
+
+No se recopilarán datos clínicos nuevos ni se contactará a los participantes de las investigaciones originales.
+
+El procedimiento comenzará con una lectura completa de cada fuente. Posteriormente se identificarán los fragmentos relacionados con la pregunta de investigación.
+
+La información se organizará en una matriz documental con las siguientes variables:
+
+- Fuente bibliográfica.
+- Contexto histórico o social.
+- Tipo de experiencia traumática.
+- Generación estudiada.
+- Características de la población.
+- Diseño metodológico.
+- Mecanismos psicológicos propuestos.
+- Mecanismos familiares propuestos.
+- Factores sociales y posibles mecanismos biológicos.
+- Resultados relacionados con la salud mental.
+- Limitaciones metodológicas.
+- Explicaciones alternativas.
+
+Se utilizará codificación temática combinada con codificación de atributos.
+
+Las categorías iniciales se derivarán de la revisión de literatura, pero podrán incorporarse categorías emergentes durante la lectura. Por ello, el análisis combinará una organización inicial deductiva con una interpretación principalmente inductiva.
+
+Posteriormente se compararán los resultados de los tres casos principales y se utilizarán las otras dos investigaciones para ampliar la interpretación.
+
+Se distinguirá entre evidencia empírica, asociaciones estadísticas, hipótesis explicativas y hallazgos que no permiten establecer causalidad.
+
+También se examinará el contrafactual: qué resultados podrían observarse en personas con condiciones sociales semejantes cuyos progenitores no hubieran experimentado las adversidades estudiadas.
+
+Cuando las investigaciones no incluyan grupos de comparación o controles suficientes, esta limitación será reconocida explícitamente.
+
+### Consideraciones éticas
+
+La investigación utilizará exclusivamente documentos académicos publicados y no contempla el reclutamiento directo de participantes ni la recopilación de información privada.
+
+Se considerarán los tres principios del Informe Belmont: respeto por las personas, beneficencia y justicia.
+
+**Respeto por las personas.** Se utilizarán los resultados publicados sin intentar identificar a participantes de las investigaciones originales. También se respetará la dignidad de las personas sobrevivientes y sus descendientes mediante un lenguaje no estigmatizante.
+
+**Beneficencia.** Se evitarán interpretaciones que atribuyan automáticamente enfermedades mentales o dificultades familiares a personas con antecedentes traumáticos. Los resultados se presentarán reconociendo las limitaciones de cada investigación.
+
+**Justicia.** Se considerarán las condiciones históricas, económicas y sociales que influyen en las experiencias traumáticas, evitando responsabilizar a las personas afectadas por situaciones de violencia o desigualdad.
+
+Dado que el diseño propuesto utiliza únicamente información publicada y no contempla interacción con participantes ni acceso a datos privados identificables, no se anticipa que constituya una investigación con seres humanos que requiera revisión completa del CIPSHI.
+
+No obstante, se consultará al profesor y a la institución correspondiente para confirmar la determinación ética aplicable.
+
+## Declaración de uso de MEL
+
+Durante la preparación de esta tarea se utilizó ChatGPT como herramienta de apoyo para organizar la revisión de literatura, estructurar la propuesta metodológica y revisar la redacción académica.
+
+## Referencias
+
+@article{kaufman2023transgenerational,
+  title={Transgenerational inheritance and systemic racism in America},
+  author={Kaufman, Joan and Khan, Maria and Shepard Payne, Jennifer and Mancini, Julia and Summers White, Yvonne},
+  journal={Psychiatric Research and Clinical Practice},
+  volume={5},
+  number={2},
+  pages={60--73},
+  year={2023},
+  url={https://psychiatryonline.org/doi/full/10.1176/appi.prcp.20220043}
+}
+
+@article{lee2019transgenerational,
+  author= {Lee, Jeewon and Kwak, Young-Sook and Kim, Yoon-Jung and Kim, Eun-Ji and Park, E Jin and Shin, Yunmi and Lee, Bun-Hee and Lee, So Hee and Jung, Hee Yeon and Lee, Inseon and Hwang, Jung Im and Kim, Dongsik and Lee, Soyoung Irene},
+  title= {Transgenerational Transmission of Trauma: Psychiatric Evaluation of Offspring of Former “Comfort Women,” Survivors of the Japanese Military Sexual Slavery during World War II},
+  journal= {Psychiatry Investigation},
+  year= {2019},
+  month= mar,
+  volume= {16},
+  number= {3},
+  pages= {249--253},
+  publisher= {Korean Neuropsychiatric Association},
+  issn= {1976-3026},
+  doi= {10.30773/pi.2019.01.21},
+  url= {https://doi.org/10.30773/pi.2019.01.21}
+}
+
+@article{mangrum2025generational,
+ title={Generational Trauma Transmission: Unveiling the Impact of Family Dynamics on Behavioral and Emotional Development},
+ author={Mangrum, Jennifer Suzanne},
+ journal={Unpublished master's thesis]. Purdue University Global},
+ year={2025},
+url= {https://purdueglobal.dspacedirect.org/server/api/core/bitstreams/12eb3a89-57e1-4ca1-b21c-3693b753f3b4/content}
+}
+
+
+@article{moog2023intergenerational,
+  title={Intergenerational transmission of the effects of maternal exposure to childhood maltreatment in the USA: a retrospective cohort study},
+  author={Moog, Nora K and Cummings, Peter D and Jackson, Kathryn L and Aschner, Judy L and Barrett, Emily S and Bastain, Theresa M and Blackwell, Courtney K and Enlow, Michelle Bosquet and Breton, Carrie V and Bush, Nicole R and others},
+  journal={The Lancet Public Health},
+  volume={8},
+  number={3},
+  pages={e226--e237},
+  year={2023},
+  publisher={Elsevier},
+  url={ https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(23)00025-7/fulltext}
+}
+
+@article{torresperez2026intergenerational,
+  author= {Torres-Pérez, Jahleel D. and Figueroa-Marcano, Isel J. and Rosado-Abreu, Veronique I. and Kim, Sohye and Ríos-Ruiz, Efraín J. and Torres-Almánzar, Alejandra and Balsalobre Vélez, Karla I. and Peluyera – García, Alondra M. and Díaz-Méndez, Sara C. and Buxó-Martínez, Carmen J. and Rivas-Tumanyan, Sona and Lugo-Candelas, Claudia and Martínez, Karen G. and González-Barrios, Polaris},
+  title= {Intergenerational Effects of the Mother’s History of Neglect and Parental Bonding on Her Postpartum Bonding: A Pilot Study},
+  journal= {Child Psychiatry &amp; Human Development},
+  year= {2026},
+  month= jan,
+  publisher= {Springer Science and Business Media LLC},
+  issn= {1573-3327},
+  doi= {10.1007/s10578-025-01947-8},
+  url= {https://doi.org/10.1007/s10578-025-01947-8}
+}
+::: {#refs}
+:::
